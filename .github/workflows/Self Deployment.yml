@@ -18,7 +18,7 @@ jobs:
         run: sudo apt update && sudo apt install yarn
       - name: Build React App
         run: yarn build
-         "scripts": {
+             "scripts": {
     "start":
       "cross-env REACT_APP_VERSION=$npm_package_version react-app-rewired start"
  }
